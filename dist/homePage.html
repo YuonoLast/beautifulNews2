@@ -5,18 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Zilla+Slab:300,300i&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" integrity="sha256-PHcOkPmOshsMBC+vtJdVr5Mwb7r0LkSVJPlPrp/IMpU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/hexa.min.css">
     <link rel="stylesheet" href="../css/normalize.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/homePageStyle.css">
     <title>Home</title>
   </head>
   <body>
+    <div class="o-preloader_aaag_stl">
+      <div class="m-main_aaag_stl m-main_aaag_pos">
+        <div class="m-square_aaag_clone"><span></span><span></span><span></span></div>
+        <div class="m-square_aaag_clone"><span></span><span></span><span></span></div>
+        <div class="m-square_aaag_clone"><span></span><span></span><span></span></div>
+        <div class="m-square_aaag_clone"><span></span><span></span><span></span></div>
+      </div>
+    </div>
     <header class="o-header_aaaa_stl o-header_aaaa_pos">
       <div class="m-wrapperLogoHeader_aaaa_stl m-wrapperLogoHeader_aaaa_pos">
         <h1 class="d-logoHeader_aaaa_multi">Beautiful News</h1>
       </div>
       <nav class="m-navSiteHeader_aaaa_stl m-navSiteHeader_aaaa_pos">
-        <div class="m-wrapperItemNavSiteMod_aaaa_multi"><a class="d-itemNavSiteMod_aaaa_tr" href="/homePage.html"><img src="./img/home.svg" alt="home" srcset="../img/home.svg"></a><a class="d-itemNavSiteMod_aaaa_tr" href="/page/newsPage.html"><img src="./img/news.svg" alt="home" srcset="../img/news.svg"></a><a class="d-itemNavSiteMod_aaaa_tr" href="/page/ourEventsPage.html"><img src="./img/ourEvents.svg" alt="home" srcset="../img/ourEvents.svg"></a><a class="d-itemNavSiteMod_aaaa_tr" href="/page/aboutUsPage.html"><img src="./img/aboutUs.svg" alt="home" srcset="../img/aboutUs.svg"></a></div><a class="d-itemNavSite_aaaa_clone" href="/homePage.html">Home</a><a class="d-itemNavSite_aaaa_clone" href="/page/newsPage.html">News</a><a class="d-itemNavSite_aaaa_clone" href="/page/ourEventsPage.html">Events</a><a class="d-itemNavSite_aaaa_clone" href="/page/aboutUsPage.html">About Us</a><img src="/dist/img/news.svg" alt="" srcset="">
+        <div class="m-wrapperItemNavSiteMod_aaaa_multi"><a class="d-itemNavSiteMod_aaaa_tr" href="/homePage.html"></a><a class="d-itemNavSiteMod_aaaa_tr" href="/page/newsPage.html"></a><a class="d-itemNavSiteMod_aaaa_tr" href="/page/ourEventsPage.html"></a><a class="d-itemNavSiteMod_aaaa_tr" href="/page/aboutUsPage.html"></a></div><a class="d-itemNavSite_aaaa_clone" href="/homePage.html">Home</a><a class="d-itemNavSite_aaaa_clone" href="/page/newsPage.html">News</a><a class="d-itemNavSite_aaaa_clone" href="/page/ourEventsPage.html">Events</a><a class="d-itemNavSite_aaaa_clone" href="/page/aboutUsPage.html">About Us</a>
       </nav>
     </header>
     <div class="o-lastNewsBlock_aaab_stl o-lastNewsBlock_aaab_pos">
@@ -25,32 +34,37 @@
           <hr noshade>
         </h2>
       </div>
-      <div class="m-wrapperFirstNewsCard_aaab_stl m-wrapperFirstNewsCard_aaab_pos">
-        <div class="m-newsCard_clone">
-          <h4>Attack of the Titans: Season 4</h4>
-          <h4>30.06.2019 </h4>
-        </div>
-        <div class="m-newsCard_clone">
-          <h4>Slipknot: 6 album</h4>
-          <h4>30.06.2019 </h4>
-        </div>
-        <div class="m-newsCard_clone">
-          <h4>Attack of the Titans: End 3 season</h4>
-          <h4>30.06.2019 </h4>
-        </div>
-        <div class="m-newsCard_clone">
-          <h4>mr. Robot: Season 4</h4>
-          <h4>30.06.2019 </h4>
-        </div>
-        <div class="m-newsCard_clone">
-          <h4>Avatar</h4>
-          <h4>30.06.2019 </h4>
-        </div>
-        <div class="m-newsCard_clone">
-          <h4>Samurai Jack</h4>
-          <h4>30.06.2019 </h4>
-        </div>
-      </div>
+      <div class="m-wrapperFirstNewsCard_aaab_stl m-wrapperFirstNewsCard_aaab_pos"><a class="m-newsCard_clone">
+          <div class="m-newsCardReadEffect_aaab_clone cardLastNewsImg0"><span>READ</span></div>
+          <div class="m-newsCardHeading_aaab_clone">
+            <h4 class="d-headingNewsCard_aaad_clone headingNewsCard_aaad_apl">Attack of the Titans: Season 4</h4>
+            <h4 class="d-dateNewsCard_aaad_clone dateNewsCard_aaad_apl">30.06.2019</h4>
+          </div></a><a class="m-newsCard_clone">
+          <div class="m-newsCardReadEffect_aaab_clone cardLastNewsImg1"><span>READ</span></div>
+          <div class="m-newsCardHeading_aaab_clone">
+            <h4 class="d-headingNewsCard_aaad_clone headingNewsCard_aaad_apl">Slipknot: 6 album</h4>
+            <h4 class="d-dateNewsCard_aaad_clone dateNewsCard_aaad_apl">30.06.2019</h4>
+          </div></a><a class="m-newsCard_clone">
+          <div class="m-newsCardReadEffect_aaab_clone cardLastNewsImg2"><span>READ</span></div>
+          <div class="m-newsCardHeading_aaab_clone">
+            <h4 class="d-headingNewsCard_aaad_clone headingNewsCard_aaad_apl">Attack of the Titans: End 3 season</h4>
+            <h4 class="d-dateNewsCard_aaad_clone dateNewsCard_aaad_apl">30.06.2019</h4>
+          </div></a><a class="m-newsCard_clone">
+          <div class="m-newsCardReadEffect_aaab_clone cardLastNewsImg3"><span>READ</span></div>
+          <div class="m-newsCardHeading_aaab_clone">
+            <h4 class="d-headingNewsCard_aaad_clone headingNewsCard_aaad_apl">mr. Robot: Season 4</h4>
+            <h4 class="d-dateNewsCard_aaad_clone dateNewsCard_aaad_apl">30.06.2019</h4>
+          </div></a><a class="m-newsCard_clone">
+          <div class="m-newsCardReadEffect_aaab_clone  cardLastNewsImg4"><span>READ</span></div>
+          <div class="m-newsCardHeading_aaab_clone">
+            <h4 class="d-headingNewsCard_aaad_clone headingNewsCard_aaad_apl">Avatar</h4>
+            <h4 class="d-dateNewsCard_aaad_clone dateNewsCard_aaad_apl">30.06.2019</h4>
+          </div></a><a class="m-newsCard_clone">
+          <div class="m-newsCardReadEffect_aaab_clone cardLastNewsImg5"><span>READ</span></div>
+          <div class="m-newsCardHeading_aaab_clone">
+            <h4 class="d-headingNewsCard_aaad_clone headingNewsCard_aaad_apl">Samurai Jack</h4>
+            <h4 class="d-dateNewsCard_aaad_clone dateNewsCard_aaad_apl">30.06.2019</h4>
+          </div></a></div>
     </div>
     <footer class="o-footer_aaac_stl o-footer_aaac_pos">
       <div class="m-footerContactsInfo_stl m-footerContactsInfo_pos">
@@ -62,7 +76,6 @@
       </div>
       <p class="d-footerLicense_aaac_multi">&copy; 2019 Beautiful News</p>
     </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="./js/homePageScript.js"></script>
   </body>
 </html>
